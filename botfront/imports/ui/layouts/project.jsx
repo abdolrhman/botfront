@@ -163,7 +163,7 @@ function Project(props) {
                     </Header>
                 ) : (
                     <Header as='h1' className='logo'>
-                        Botfront.
+                        INTDV.
                     </Header>
                 )}
                 {(settings && settings.settings && settings.settings.public && settings.settings.public.smallLogoUrl) || project.smallLogoUrl ? (
@@ -172,7 +172,7 @@ function Project(props) {
                     </Header>
                 ) : (
                     <Header as='h1' className='simple-logo'>
-                        B.
+                        INTDV.
                     </Header>
                 )}
                 {loading && renderPlaceholder(true, false)}

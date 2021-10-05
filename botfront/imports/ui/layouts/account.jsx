@@ -21,9 +21,9 @@ class AccountLayout extends React.Component {
             backgroundSize: 'cover',
             backgroundPosition: 'center',
         };
-        
+
         const backgroundUrl = getBackgroundImageUrl();
-        
+
         if (backgroundUrl) bgStyle.backgroundImage = `url(${backgroundUrl})`;
 
         const titleStyle = {
@@ -43,9 +43,9 @@ class AccountLayout extends React.Component {
 
         return (
             <div style={bgStyle} className='setup'>
-                <Header style={titleStyle} content='Botfront.' />
+                <Header style={titleStyle} content='INTDV.' />
                 <div style={{ textAlign: 'center' }}>
-                    <DocumentTitle title={name || 'Botfront'} />
+                    <DocumentTitle title={name || 'INTDV'} />
                     <div style={loginBoxContainer}>{children}</div>
                 </div>
                 <Alert stack={{ limit: 3 }} />
